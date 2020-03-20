@@ -1,0 +1,2897 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+owl:Thing a owl:Class .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C1> a <http://www.w3.org/2002/08/owl#Class>;
+  rdfs:label "Guang'an City Hospital"@en, "广安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C2> a <http://www.w3.org/2002/09/owl#Class>;
+  rdfs:label "Determination of Epinephrine"@en, "肾上腺素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C3> a <http://www.w3.org/2002/10/owl#Class>;
+  rdfs:label "Boertala City Hospital"@en, "博尔塔拉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C4> a <http://www.w3.org/2002/11/owl#Class>;
+  rdfs:label "Heterotrophic organisms"@en, "异养生物"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C304> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C5> a <http://www.w3.org/2002/12/owl#Class>;
+  rdfs:label "Guilin Hospital"@en, "桂林市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C6> a <http://www.w3.org/2002/13/owl#Class>;
+  rdfs:label "Wuqing District Hospital"@en, "武清区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C7> a <http://www.w3.org/2002/14/owl#Class>;
+  rdfs:label "Hainan City Hospital"@en, "海南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C8> a <http://www.w3.org/2002/15/owl#Class>;
+  rdfs:label "Wuxi City Hospital"@en, "无锡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C9> a <http://www.w3.org/2002/16/owl#Class>;
+  rdfs:label "Biological agents"@en, "生物试剂"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C10> a <http://www.w3.org/2002/17/owl#Class>;
+  rdfs:label "Nu River City Hospital"@en, "怒江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C11> a <http://www.w3.org/2002/18/owl#Class>;
+  rdfs:label "Zhaoqing City Hospital"@en, "肇庆市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C12> a <http://www.w3.org/2002/19/owl#Class>;
+  rdfs:label "traditional Chinese medicine"@en, "中药"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C13> a <http://www.w3.org/2002/20/owl#Class>;
+  rdfs:label "Fangchenggang City Hospital"@en, "防城港市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C14> a <http://www.w3.org/2002/21/owl#Class>;
+  rdfs:label "Shuozhou City Hospital"@en, "朔州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C15> a <http://www.w3.org/2002/22/owl#Class>;
+  rdfs:label "Datong Hospital"@en, "大同市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C16> a <http://www.w3.org/2002/23/owl#Class>;
+  rdfs:label "Medical protection standards"@en, "医用防护标准"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C17> a <http://www.w3.org/2002/24/owl#Class>;
+  rdfs:label "Jixi City Hospital"@en, "鸡西市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C18> a <http://www.w3.org/2002/25/owl#Class>;
+  rdfs:label "Chamdo hospital"@en, "昌都市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C19> a <http://www.w3.org/2002/26/owl#Class>;
+  rdfs:label "Shandong Province Hospital"@en, "山东省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C20> a <http://www.w3.org/2002/27/owl#Class>;
+  rdfs:label "Bijie City Hospital"@en, "毕节市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C21> a <http://www.w3.org/2002/28/owl#Class>;
+  rdfs:label "Ningbo City Hospital"@en, "宁波市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C22> a <http://www.w3.org/2002/29/owl#Class>;
+  rdfs:label "Hexi District Hospital"@en, "河西区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C23> a <http://www.w3.org/2002/30/owl#Class>;
+  rdfs:label "Virus inspection and identification"@en, "病毒检验与鉴定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C222> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C24> a <http://www.w3.org/2002/31/owl#Class>;
+  rdfs:label "Dongli District Hospital"@en, "东丽区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C25> a <http://www.w3.org/2002/32/owl#Class>;
+  rdfs:label "Yanqing District Hospital"@en, "延庆区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C26> a <http://www.w3.org/2002/33/owl#Class>;
+  rdfs:label "Jinghai District Hospital"@en, "静海区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C27> a <http://www.w3.org/2002/34/owl#Class>;
+  rdfs:label "Jingdezhen City Hospital"@en, "景德镇市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C28> a <http://www.w3.org/2002/35/owl#Class>;
+  rdfs:label "Weinan City Hospital"@en, "渭南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C29> a <http://www.w3.org/2002/36/owl#Class>;
+  rdfs:label "Ganzhou City Hospital"@en, "赣州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C30> a <http://www.w3.org/2002/37/owl#Class>;
+  rdfs:label "Qinghai Province Hospital"@en, "青海省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C31> a <http://www.w3.org/2002/38/owl#Class>;
+  rdfs:label "Meizhou City Hospital"@en, "梅州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C32> a <http://www.w3.org/2002/39/owl#Class>;
+  rdfs:label "Henan Province Hospital"@en, "河南省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C33> a <http://www.w3.org/2002/40/owl#Class>;
+  rdfs:label "Rongchang District Hospital"@en, "荣昌区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C34> a <http://www.w3.org/2002/41/owl#Class>;
+  rdfs:label "Tai'an City Hospital"@en, "泰安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C35> a <http://www.w3.org/2002/42/owl#Class>;
+  rdfs:label "Determination of lipids"@en, "脂类测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C36> a <http://www.w3.org/2002/43/owl#Class>;
+  rdfs:label "Detecting immunosuppressive drugs"@en, "免疫抑制类药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C37> a <http://www.w3.org/2002/44/owl#Class>;
+  rdfs:label "Detection antipsychotics"@en, "抗精神病药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C38> a <http://www.w3.org/2002/45/owl#Class>;
+  rdfs:label "Dongcheng District Hospital"@en, "东城区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C39> a <http://www.w3.org/2002/46/owl#Class>;
+  rdfs:label "Dongying City Hospital"@en, "东营市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C40> a <http://www.w3.org/2002/47/owl#Class>;
+  rdfs:label "Shaoxing City Hospital"@en, "绍兴市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C41> a <http://www.w3.org/2002/48/owl#Class>;
+  rdfs:label "Angiography"@en, "造影检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C42> a <http://www.w3.org/2002/49/owl#Class>;
+  rdfs:label "Yunfu City Hospital"@en, "云浮市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C43> a <http://www.w3.org/2002/50/owl#Class>;
+  rdfs:label "Langfang City Hospital"@en, "廊坊市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C44> a <http://www.w3.org/2002/51/owl#Class>;
+  rdfs:label "Hainan Hospital"@en, "海南省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C45> a <http://www.w3.org/2002/52/owl#Class>;
+  rdfs:label "RNA"@en, "RNA"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C241> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C46> a <http://www.w3.org/2002/53/owl#Class>;
+  rdfs:label "Minhang District Hospital"@en, "闵行区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C47> a <http://www.w3.org/2002/54/owl#Class>;
+  rdfs:label "Parathyroid hormone determination"@en, "甲状旁腺激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C48> a <http://www.w3.org/2002/55/owl#Class>;
+  rdfs:label "Digestive system"@en, "消化系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C49> a <http://www.w3.org/2002/56/owl#Class>;
+  rdfs:label "Hongqiao District Hospital"@en, "红桥区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C50> a <http://www.w3.org/2002/57/owl#Class>;
+  rdfs:label "Other physical examination"@en, "其他体格检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C51> a <http://www.w3.org/2002/58/owl#Class>;
+  rdfs:label "Chengdu Hospital"@en, "成都市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C52> a <http://www.w3.org/2002/59/owl#Class>;
+  rdfs:label "Suqian City Hospital"@en, "宿迁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C53> a <http://www.w3.org/2002/60/owl#Class>;
+  rdfs:label "Coronavirus"@en, "冠状病毒"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C311> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C54> a <http://www.w3.org/2002/61/owl#Class>;
+  rdfs:label "Hulun Buir City Hospital"@en, "呼伦贝尔市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C55> a <http://www.w3.org/2002/62/owl#Class>;
+  rdfs:label "White City Hospital"@en, "白城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C56> a <http://www.w3.org/2002/63/owl#Class>;
+  rdfs:label "Jinzhong City Hospital"@en, "晋中市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C57> a <http://www.w3.org/2002/64/owl#Class>;
+  rdfs:label "Lingshui City Hospital"@en, "陵水市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C58> a <http://www.w3.org/2002/65/owl#Class>;
+  rdfs:label "Liaocheng Hospital"@en, "聊城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C59> a <http://www.w3.org/2002/66/owl#Class>;
+  rdfs:label "Qitaihe City Hospital"@en, "七台河市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C60> a <http://www.w3.org/2002/67/owl#Class>;
+  rdfs:label "Beichen District Hospital"@en, "北辰区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C61> a <http://www.w3.org/2002/68/owl#Class>;
+  rdfs:label "Panzhihua City Hospital"@en, "攀枝花市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C62> a <http://www.w3.org/2002/69/owl#Class>;
+  rdfs:label "Altay City Hospital"@en, "阿勒泰市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C63> a <http://www.w3.org/2002/70/owl#Class>;
+  rdfs:label "Jiamusi City Hospital"@en, "佳木斯市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C64> a <http://www.w3.org/2002/71/owl#Class>;
+  rdfs:label "Changsha City Hospital"@en, "长沙市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C65> a <http://www.w3.org/2002/72/owl#Class>;
+  rdfs:label "Urinary system"@en, "泌尿系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C66> a <http://www.w3.org/2002/73/owl#Class>;
+  rdfs:label "Pancreatic hormone determination"@en, "胰腺激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C67> a <http://www.w3.org/2002/74/owl#Class>;
+  rdfs:label "Determination of vitamin"@en, "维生素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C68> a <http://www.w3.org/2002/75/owl#Class>;
+  rdfs:label "Jiangsu Province Hospital"@en, "江苏省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C69> a <http://www.w3.org/2002/76/owl#Class>;
+  rdfs:label "Panjin City Hospital"@en, "盘锦市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C70> a <http://www.w3.org/2002/77/owl#Class>;
+  rdfs:label "Shiyan City Hospital"@en, "十堰市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C71> a <http://www.w3.org/2002/78/owl#Class>;
+  rdfs:label "Changzhou City Hospital"@en, "常州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C72> a <http://www.w3.org/2002/79/owl#Class>;
+  rdfs:label "Bengbu City Hospital"@en, "蚌埠市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C73> a <http://www.w3.org/2002/80/owl#Class>;
+  rdfs:label "Guangzhou Hospital"@en, "广州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C74> a <http://www.w3.org/2002/81/owl#Class>;
+  rdfs:label "Jiangjin District Hospital"@en, "江津区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C75> a <http://www.w3.org/2002/82/owl#Class>;
+  rdfs:label "Yiyang City Hospital"@en, "益阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C76> a <http://www.w3.org/2002/83/owl#Class>;
+  rdfs:label "Jincheng Hospital"@en, "晋城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C77> a <http://www.w3.org/2002/84/owl#Class>;
+  rdfs:label "Hebei hospital"@en, "河北省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C78> a <http://www.w3.org/2002/85/owl#Class>;
+  rdfs:label "Shuangyashan City Hospital"@en, "双鸭山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C79> a <http://www.w3.org/2002/86/owl#Class>;
+  rdfs:label "Tongling City Hospital"@en, "铜陵市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C80> a <http://www.w3.org/2002/87/owl#Class>;
+  rdfs:label "animal"@en, "动物"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C4> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C81> a <http://www.w3.org/2002/88/owl#Class>;
+  rdfs:label "Gastrointestinal hormone determination"@en, "消化道激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C82> a <http://www.w3.org/2002/89/owl#Class>;
+  rdfs:label "Shaoguan City Hospital"@en, "韶关市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C83> a <http://www.w3.org/2002/90/owl#Class>;
+  rdfs:label "Xiangyang City Hospital"@en, "襄阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C84> a <http://www.w3.org/2002/91/owl#Class>;
+  rdfs:label "Dehong City Hospital"@en, "德宏市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C85> a <http://www.w3.org/2002/92/owl#Class>;
+  rdfs:label "Luzhou City Hospital"@en, "泸州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C86> a <http://www.w3.org/2002/93/owl#Class>;
+  rdfs:label "Baoting City Hospital"@en, "保亭市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C87> a <http://www.w3.org/2002/94/owl#Class>;
+  rdfs:label "Huai'an City Hospital"@en, "淮安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C88> a <http://www.w3.org/2002/95/owl#Class>;
+  rdfs:label "Yichun City Hospital"@en, "宜春市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C89> a <http://www.w3.org/2002/96/owl#Class>;
+  rdfs:label "Tunchang county hospital"@en, "屯昌县市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C90> a <http://www.w3.org/2002/97/owl#Class>;
+  rdfs:label "Shanxi Province Hospital"@en, "山西省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C91> a <http://www.w3.org/2002/98/owl#Class>;
+  rdfs:label "Huizhou City Hospital"@en, "惠州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C92> a <http://www.w3.org/2002/99/owl#Class>;
+  rdfs:label "Zunyi City Hospital"@en, "遵义市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C93> a <http://www.w3.org/2002/100/owl#Class>;
+  rdfs:label "X-ray examination"@en, "X线检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C94> a <http://www.w3.org/2002/101/owl#Class>;
+  rdfs:label "Baotou City Hospital"@en, "包头市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C95> a <http://www.w3.org/2002/102/owl#Class>;
+  rdfs:label "Dazu District Hospital"@en, "大足区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C96> a <http://www.w3.org/2002/103/owl#Class>;
+  rdfs:label "Suihua City Hospital"@en, "绥化市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C97> a <http://www.w3.org/2002/104/owl#Class>;
+  rdfs:label "Jiyuan City Hospital"@en, "济源市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C98> a <http://www.w3.org/2002/105/owl#Class>;
+  rdfs:label "Leshan City Hospital"@en, "乐山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C99> a <http://www.w3.org/2002/106/owl#Class>;
+  rdfs:label "Ezhou City Hospital"@en, "鄂州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C100> a <http://www.w3.org/2002/107/owl#Class>;
+  rdfs:label "Medical Protective Equipment"@en, "医用防护用具"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C101> a <http://www.w3.org/2002/108/owl#Class>;
+  rdfs:label "Serum bilirubin, bile acids and ammonia determination"@en, "血清胆红素、胆汁酸及血氨测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C102> a <http://www.w3.org/2002/109/owl#Class>;
+  rdfs:label "Shangqiu City Hospital"@en, "商丘市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C103> a <http://www.w3.org/2002/110/owl#Class>;
+  rdfs:label "Shennongjia Forest City Hospital"@en, "神农架林区市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C104> a <http://www.w3.org/2002/111/owl#Class>;
+  rdfs:label "Binhai New Area Hospital"@en, "滨海新区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C105> a <http://www.w3.org/2002/112/owl#Class>;
+  rdfs:label "Taiyuan hospital"@en, "太原市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C106> a <http://www.w3.org/2002/113/owl#Class>;
+  rdfs:label "Yingkou City Hospital"@en, "营口市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C107> a <http://www.w3.org/2002/114/owl#Class>;
+  rdfs:label "City I County Hospital"@en, "城口县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C108> a <http://www.w3.org/2002/115/owl#Class>;
+  rdfs:label "Huzhou City Hospital"@en, "湖州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C109> a <http://www.w3.org/2002/116/owl#Class>;
+  rdfs:label "Shantou City Hospital"@en, "汕头市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C110> a <http://www.w3.org/2002/117/owl#Class>;
+  rdfs:label "Shapingba District Hospital"@en, "沙坪坝区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C111> a <http://www.w3.org/2002/118/owl#Class>;
+  rdfs:label "Yancheng Hospital"@en, "盐城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C112> a <http://www.w3.org/2002/119/owl#Class>;
+  rdfs:label "Hohhot hospital"@en, "呼和浩特市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C113> a <http://www.w3.org/2002/120/owl#Class>;
+  rdfs:label "Haixi City Hospital"@en, "海西市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C114> a <http://www.w3.org/2002/121/owl#Class>;
+  rdfs:label "Electrophysiological examination"@en, "神经电生理检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C115> a <http://www.w3.org/2002/122/owl#Class>;
+  rdfs:label "Jiayuguan City Hospital"@en, "嘉峪关市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C116> a <http://www.w3.org/2002/123/owl#Class>;
+  rdfs:label "Parasite Diagnosis and identification"@en, "寄生虫检验与鉴定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C222> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C117> a <http://www.w3.org/2002/124/owl#Class>;
+  rdfs:label "Thyroid hormone determination"@en, "甲状腺激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C118> a <http://www.w3.org/2002/125/owl#Class>;
+  rdfs:label "Bozhou City Hospital"@en, "亳州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C119> a <http://www.w3.org/2002/126/owl#Class>;
+  rdfs:label "Wuhai City Hospital"@en, "乌海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C120> a <http://www.w3.org/2002/127/owl#Class>;
+  rdfs:label "Zibo City Hospital"@en, "淄博市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C121> a <http://www.w3.org/2002/128/owl#Class>;
+  rdfs:label "Tumor markers"@en, "肿瘤标志物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C122> a <http://www.w3.org/2002/129/owl#Class>;
+  rdfs:label "Xi'an hospital"@en, "西安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C123> a <http://www.w3.org/2002/130/owl#Class>;
+  rdfs:label "Qiongzhong City Hospital"@en, "琼中市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C124> a <http://www.w3.org/2002/131/owl#Class>;
+  rdfs:label "Serum non-protein nitrogenous compounds"@en, "血清非蛋白含氮化合物测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C125> a <http://www.w3.org/2002/132/owl#Class>;
+  rdfs:label "Wuzhishan City Hospital"@en, "五指山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C126> a <http://www.w3.org/2002/133/owl#Class>;
+  rdfs:label "Haidong Hospital"@en, "海东市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C127> a <http://www.w3.org/2002/134/owl#Class>;
+  rdfs:label "Therapeutic Drug Detection"@en, "治疗药物浓度检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C128> a <http://www.w3.org/2002/135/owl#Class>;
+  rdfs:label "Fangshan District Hospital"@en, "房山区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C129> a <http://www.w3.org/2002/136/owl#Class>;
+  rdfs:label "Huairou District Hospital"@en, "怀柔区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C130> a <http://www.w3.org/2002/137/owl#Class>;
+  rdfs:label "Hongkou District Hospital"@en, "虹口区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C131> a <http://www.w3.org/2002/138/owl#Class>;
+  rdfs:label "Dazhou Hospital"@en, "达州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C132> a <http://www.w3.org/2002/139/owl#Class>;
+  rdfs:label "Yubei District Hospital"@en, "渝北区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C133> a <http://www.w3.org/2002/140/owl#Class>;
+  rdfs:label "Hegang City Hospital"@en, "鹤岗市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C134> a <http://www.w3.org/2002/141/owl#Class>;
+  rdfs:label "Hengshui City Hospital"@en, "衡水市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C135> a <http://www.w3.org/2002/142/owl#Class>;
+  rdfs:label "Turpan City Hospital"@en, "吐鲁番市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C136> a <http://www.w3.org/2002/143/owl#Class>;
+  rdfs:label "Heilongjiang Provincial Hospital"@en, "黑龙江省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C137> a <http://www.w3.org/2002/144/owl#Class>;
+  rdfs:label "Zhongwei City Hospital"@en, "中卫市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C396> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C138> a <http://www.w3.org/2002/145/owl#Class>;
+  rdfs:label "disease"@en, "疾病"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C139> a <http://www.w3.org/2002/146/owl#Class>;
+  rdfs:label "Rizhao City Hospital"@en, "日照市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C140> a <http://www.w3.org/2002/147/owl#Class>;
+  rdfs:label "Guangxi Hospital"@en, "广西省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C141> a <http://www.w3.org/2002/148/owl#Class>;
+  rdfs:label "nervous system"@en, "神经系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C142> a <http://www.w3.org/2002/149/owl#Class>;
+  rdfs:label "Yongchuan District Hospital"@en, "永川区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C143> a <http://www.w3.org/2002/150/owl#Class>;
+  rdfs:label "Pudong New Area Hospital"@en, "浦东新区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C144> a <http://www.w3.org/2002/151/owl#Class>;
+  rdfs:label "Hotan City Hospital"@en, "和田市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C145> a <http://www.w3.org/2002/152/owl#Class>;
+  rdfs:label "Jiaozuo City hospital"@en, "焦作市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C146> a <http://www.w3.org/2002/153/owl#Class>;
+  rdfs:label "Sichuan Provincial Hospital"@en, "四川省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C147> a <http://www.w3.org/2002/154/owl#Class>;
+  rdfs:label "Guangdong Provincial Hospital"@en, "广东省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C148> a <http://www.w3.org/2002/155/owl#Class>;
+  rdfs:label "Microscopic examination"@en, "显微镜检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C149> a <http://www.w3.org/2002/156/owl#Class>;
+  rdfs:label "Yichang City Hospital"@en, "宜昌市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C150> a <http://www.w3.org/2002/157/owl#Class>;
+  rdfs:label "Chengmai county hospital"@en, "澄迈县市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C151> a <http://www.w3.org/2002/158/owl#Class>;
+  rdfs:label "Guiyang City Hospital"@en, "贵阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C152> a <http://www.w3.org/2002/159/owl#Class>;
+  rdfs:label "Yichun City Hospital"@en, "伊春市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C153> a <http://www.w3.org/2002/160/owl#Class>;
+  rdfs:label "Heping District Hospital"@en, "和平区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C154> a <http://www.w3.org/2002/161/owl#Class>;
+  rdfs:label "RBC inspection"@en, "红细胞检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C155> a <http://www.w3.org/2002/162/owl#Class>;
+  rdfs:label "Enshi City Hospital"@en, "恩施市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C156> a <http://www.w3.org/2002/163/owl#Class>;
+  rdfs:label "Xilin Gol League City Hospital"@en, "锡林郭勒盟市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C157> a <http://www.w3.org/2002/164/owl#Class>;
+  rdfs:label "Dongfang City Hospital"@en, "东方市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C158> a <http://www.w3.org/2002/165/owl#Class>;
+  rdfs:label "Zhenjiang City Hospital"@en, "镇江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C159> a <http://www.w3.org/2002/166/owl#Class>;
+  rdfs:label "Chongqing City Hospital"@en, "重庆市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C160> a <http://www.w3.org/2002/167/owl#Class>;
+  rdfs:label "Longyan City Hospital"@en, "龙岩市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C161> a <http://www.w3.org/2002/168/owl#Class>;
+  rdfs:label "Infectious disease immunoassay"@en, "感染性疾病免疫检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C162> a <http://www.w3.org/2002/169/owl#Class>;
+  rdfs:label "Yunyang County Hospital"@en, "云阳县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C163> a <http://www.w3.org/2002/170/owl#Class>;
+  rdfs:label "Changchun City Hospital"@en, "长春市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C164> a <http://www.w3.org/2002/171/owl#Class>;
+  rdfs:label "Computed tomography (CT)"@en, "计算机体层扫描（CT）"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C165> a <http://www.w3.org/2002/172/owl#Class>;
+  rdfs:label "Pingliang City Hospital"@en, "平凉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C166> a <http://www.w3.org/2002/173/owl#Class>;
+  rdfs:label "Antiarrhythmic drug testing"@en, "抗心律失常药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C167> a <http://www.w3.org/2002/174/owl#Class>;
+  rdfs:label "Suizhou hospital"@en, "随州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C168> a <http://www.w3.org/2002/175/owl#Class>;
+  rdfs:label "Nanchang hospital"@en, "南昌市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C169> a <http://www.w3.org/2002/176/owl#Class>;
+  rdfs:label "Jiujiang City Hospital"@en, "九江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C170> a <http://www.w3.org/2002/177/owl#Class>;
+  rdfs:label "Ya'an City Hospital"@en, "雅安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C171> a <http://www.w3.org/2002/178/owl#Class>;
+  rdfs:label "Anyang City Hospital"@en, "安阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C172> a <http://www.w3.org/2002/179/owl#Class>;
+  rdfs:label "Hanzhong City Hospital"@en, "汉中市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C173> a <http://www.w3.org/2002/180/owl#Class>;
+  rdfs:label "Yantai City Hospital"@en, "烟台市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C174> a <http://www.w3.org/2002/181/owl#Class>;
+  rdfs:label "Eye exam"@en, "眼科检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C175> a <http://www.w3.org/2002/182/owl#Class>;
+  rdfs:label "Departments"@en, "科室"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C176> a <http://www.w3.org/2002/183/owl#Class>;
+  rdfs:label "Tongnan District Hospital"@en, "潼南区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C177> a <http://www.w3.org/2002/184/owl#Class>;
+  rdfs:label "Suzhou City Hospital"@en, "宿州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C178> a <http://www.w3.org/2002/185/owl#Class>;
+  rdfs:label "Examination of bone marrow cells"@en, "骨髓细胞检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C179> a <http://www.w3.org/2002/186/owl#Class>;
+  rdfs:label "Chaozhou City Hospital"@en, "潮州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C180> a <http://www.w3.org/2002/187/owl#Class>;
+  rdfs:label "Alxa League City Hospital"@en, "阿拉善盟市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C181> a <http://www.w3.org/2002/188/owl#Class>;
+  rdfs:label "Wuhan hospital"@en, "武汉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C182> a <http://www.w3.org/2002/189/owl#Class>;
+  rdfs:label "Wuzhong City Hospital"@en, "吴忠市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C396> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C183> a <http://www.w3.org/2002/190/owl#Class>;
+  rdfs:label "Beibei District Hospital"@en, "北碚区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C184> a <http://www.w3.org/2002/191/owl#Class>;
+  rdfs:label "Pituitary hormone determination"@en, "垂体激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C185> a <http://www.w3.org/2002/192/owl#Class>;
+  rdfs:label "Lu'an City Hospital"@en, "六安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C186> a <http://www.w3.org/2002/193/owl#Class>;
+  rdfs:label "Taizhou City Hospital"@en, "泰州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C187> a <http://www.w3.org/2002/194/owl#Class>;
+  rdfs:label "Yingtan City Hospital"@en, "鹰潭市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C188> a <http://www.w3.org/2002/195/owl#Class>;
+  rdfs:label "Linfen City Hospital"@en, "临汾市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C189> a <http://www.w3.org/2002/196/owl#Class>;
+  rdfs:label "Zhejiang Hospital"@en, "浙江省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C190> a <http://www.w3.org/2002/197/owl#Class>;
+  rdfs:label "Shaanxi Province Hospital"@en, "陕西省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C191> a <http://www.w3.org/2002/198/owl#Class>;
+  rdfs:label "Qiannan City Hospital"@en, "黔南州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C192> a <http://www.w3.org/2002/199/owl#Class>;
+  rdfs:label "Wanning City Hospital"@en, "万宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C193> a <http://www.w3.org/2002/200/owl#Class>;
+  rdfs:label "Other biochemical measurements"@en, "其他生化测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C194> a <http://www.w3.org/2002/201/owl#Class>;
+  rdfs:label "Shizuishan City Hospital"@en, "石嘴山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C396> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C195> a <http://www.w3.org/2002/202/owl#Class>;
+  rdfs:label "Heze City Hospital"@en, "菏泽市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C196> a <http://www.w3.org/2002/203/owl#Class>;
+  rdfs:label "Check the white blood cells"@en, "白细胞检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C197> a <http://www.w3.org/2002/204/owl#Class>;
+  rdfs:label "Pu'er City Hospital"@en, "普洱市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C198> a <http://www.w3.org/2002/205/owl#Class>;
+  rdfs:label "Anqing City Hospital"@en, "安庆市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C199> a <http://www.w3.org/2002/206/owl#Class>;
+  rdfs:label "Nankai District Hospital"@en, "南开区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C200> a <http://www.w3.org/2002/207/owl#Class>;
+  rdfs:label "Huainan City Hospital"@en, "淮南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C201> a <http://www.w3.org/2002/208/owl#Class>;
+  rdfs:label "Weifang City Hospital"@en, "潍坊市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C202> a <http://www.w3.org/2002/209/owl#Class>;
+  rdfs:label "Urumqi City Hospital"@en, "乌鲁木齐市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C203> a <http://www.w3.org/2002/210/owl#Class>;
+  rdfs:label "Nanjing hospital"@en, "南京市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C204> a <http://www.w3.org/2002/211/owl#Class>;
+  rdfs:label "Ganzi City Hospital"@en, "甘孜市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C205> a <http://www.w3.org/2002/212/owl#Class>;
+  rdfs:label "Taipei City Hospital sea"@en, "海北市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C206> a <http://www.w3.org/2002/213/owl#Class>;
+  rdfs:label "Magnetic resonance imaging (MRI)"@en, "核磁共振成像MRI"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C207> a <http://www.w3.org/2002/214/owl#Class>;
+  rdfs:label "Yili City Hospital"@en, "伊犁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C208> a <http://www.w3.org/2002/215/owl#Class>;
+  rdfs:label "Tieling City Hospital"@en, "铁岭市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C209> a <http://www.w3.org/2002/216/owl#Class>;
+  rdfs:label "EU standards"@en, "欧盟标准"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C16> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C210> a <http://www.w3.org/2002/217/owl#Class>;
+  rdfs:label "Thrombosis and Haemostasis"@en, "血栓与止血"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C211> a <http://www.w3.org/2002/218/owl#Class>;
+  rdfs:label "Western City Hospital"@en, "湘西市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C212> a <http://www.w3.org/2002/219/owl#Class>;
+  rdfs:label "Wuxi County Hospital"@en, "巫溪县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C213> a <http://www.w3.org/2002/220/owl#Class>;
+  rdfs:label "Maoming City Hospital"@en, "茂名市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C214> a <http://www.w3.org/2002/221/owl#Class>;
+  rdfs:label "Gonadal hormone determination"@en, "性腺激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C215> a <http://www.w3.org/2002/222/owl#Class>;
+  rdfs:label "Genetic diagnosis examination"@en, "基因诊断学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C216> a <http://www.w3.org/2002/223/owl#Class>;
+  rdfs:label "American standard"@en, "美国标准"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C16> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C217> a <http://www.w3.org/2002/224/owl#Class>;
+  rdfs:label "Benxi City Hospital"@en, "本溪市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C218> a <http://www.w3.org/2002/225/owl#Class>;
+  rdfs:label "Pingdingshan City Hospital"@en, "平顶山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C219> a <http://www.w3.org/2002/226/owl#Class>;
+  rdfs:label "Jingan District Hospital"@en, "静安区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C220> a <http://www.w3.org/2002/227/owl#Class>;
+  rdfs:label "Qianjiang District Hospital"@en, "黔江区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C221> a <http://www.w3.org/2002/228/owl#Class>;
+  rdfs:label "Nanchong City Hospital"@en, "南充市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C222> a <http://www.w3.org/2002/229/owl#Class>;
+  rdfs:label "Microbiological examination"@en, "微生物学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C223> a <http://www.w3.org/2002/230/owl#Class>;
+  rdfs:label "Radionuclide therapy"@en, "放射性核素治疗"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C224> a <http://www.w3.org/2002/231/owl#Class>;
+  rdfs:label "Siping City Hospital"@en, "四平市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C225> a <http://www.w3.org/2002/232/owl#Class>;
+  rdfs:label "Lianyungang City hospital"@en, "连云港市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C226> a <http://www.w3.org/2002/233/owl#Class>;
+  rdfs:label "Qingdao City Hospital"@en, "青岛市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C227> a <http://www.w3.org/2002/234/owl#Class>;
+  rdfs:label "Tongliang District Hospital"@en, "铜梁区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C228> a <http://www.w3.org/2002/235/owl#Class>;
+  rdfs:label "Yuncheng City Hospital"@en, "运城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C229> a <http://www.w3.org/2002/236/owl#Class>;
+  rdfs:label "Songjiang District Hospital"@en, "松江区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C230> a <http://www.w3.org/2002/237/owl#Class>;
+  rdfs:label "Ding'an City Hospital"@en, "定安县市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C231> a <http://www.w3.org/2002/238/owl#Class>;
+  rdfs:label "Tianjin Hospital"@en, "天津市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C232> a <http://www.w3.org/2002/239/owl#Class>;
+  rdfs:label "Dalian City Hospital"@en, "大连市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C233> a <http://www.w3.org/2002/240/owl#Class>;
+  rdfs:label "Fengxian District Hospital"@en, "奉贤区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C234> a <http://www.w3.org/2002/241/owl#Class>;
+  rdfs:label "Ankang Hospital"@en, "安康市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C235> a <http://www.w3.org/2002/242/owl#Class>;
+  rdfs:label "Nanan District Hospital"@en, "南岸区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C236> a <http://www.w3.org/2002/243/owl#Class>;
+  rdfs:label "Open state District Hospital"@en, "开州区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C237> a <http://www.w3.org/2002/244/owl#Class>;
+  rdfs:label "Golog City Hospital"@en, "果洛市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C238> a <http://www.w3.org/2002/245/owl#Class>;
+  rdfs:label "Other pathogens inspection"@en, "其他病原体检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C222> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C239> a <http://www.w3.org/2002/246/owl#Class>;
+  rdfs:label "Dezhou hospital"@en, "德州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C240> a <http://www.w3.org/2002/247/owl#Class>;
+  rdfs:label "Xinyang City Hospital"@en, "信阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C241> a <http://www.w3.org/2002/248/owl#Class>;
+  rdfs:label "Nucleic acid"@en, "核酸"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C242> a <http://www.w3.org/2002/249/owl#Class>;
+  rdfs:label "Chaoyang District Hospital"@en, "朝阳区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C243> a <http://www.w3.org/2002/250/owl#Class>;
+  rdfs:label "Fuzhou hospital"@en, "福州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C244> a <http://www.w3.org/2002/251/owl#Class>;
+  rdfs:label "Pingxiang City Hospital"@en, "萍乡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C245> a <http://www.w3.org/2002/252/owl#Class>;
+  rdfs:label "Jinzhou City Hospital"@en, "锦州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C246> a <http://www.w3.org/2002/253/owl#Class>;
+  rdfs:label "Yuzhong District Hospital"@en, "渝中区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C247> a <http://www.w3.org/2002/254/owl#Class>;
+  rdfs:label "Jinan City Hospital"@en, "济南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C248> a <http://www.w3.org/2002/255/owl#Class>;
+  rdfs:label "Fengtai District Hospital"@en, "丰台区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C249> a <http://www.w3.org/2002/256/owl#Class>;
+  rdfs:label "Chaoyang Hospital"@en, "朝阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C250> a <http://www.w3.org/2002/257/owl#Class>;
+  rdfs:label "Physical"@en, "体格检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C430> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C251> a <http://www.w3.org/2002/258/owl#Class>;
+  rdfs:label "Shenzhen Hospital"@en, "深圳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C252> a <http://www.w3.org/2002/259/owl#Class>;
+  rdfs:label "Jiuquan City Hospital"@en, "酒泉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C253> a <http://www.w3.org/2002/260/owl#Class>;
+  rdfs:label "exercise system"@en, "运动系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C254> a <http://www.w3.org/2002/261/owl#Class>;
+  rdfs:label "Xinxiang City Hospital"@en, "新乡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C255> a <http://www.w3.org/2002/262/owl#Class>;
+  rdfs:label "Xingtai City Hospital"@en, "邢台市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C256> a <http://www.w3.org/2002/263/owl#Class>;
+  rdfs:label "Luoyang City Hospital"@en, "洛阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C257> a <http://www.w3.org/2002/264/owl#Class>;
+  rdfs:label "Jiading District Hospital"@en, "嘉定区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C258> a <http://www.w3.org/2002/265/owl#Class>;
+  rdfs:label "Anshan City Hospital"@en, "鞍山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C259> a <http://www.w3.org/2002/266/owl#Class>;
+  rdfs:label "Qingyang City Hospital"@en, "庆阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C260> a <http://www.w3.org/2002/267/owl#Class>;
+  rdfs:label "Physical examination"@en, "物理检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C430> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C261> a <http://www.w3.org/2002/268/owl#Class>;
+  rdfs:label "Yibin city hospital"@en, "宜宾市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C262> a <http://www.w3.org/2002/269/owl#Class>;
+  rdfs:label "Xicheng District Hospital"@en, "西城区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C263> a <http://www.w3.org/2002/270/owl#Class>;
+  rdfs:label "Ningde City Hospital"@en, "宁德市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C264> a <http://www.w3.org/2002/271/owl#Class>;
+  rdfs:label "Southeast City Hospital"@en, "黔东南州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C265> a <http://www.w3.org/2002/272/owl#Class>;
+  rdfs:label "Diqing City Hospital"@en, "迪庆市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C266> a <http://www.w3.org/2002/273/owl#Class>;
+  rdfs:label "Antiepileptic drug testing"@en, "抗癫痫类药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C267> a <http://www.w3.org/2002/274/owl#Class>;
+  rdfs:label "Serum enzymes"@en, "血清酶测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C268> a <http://www.w3.org/2002/275/owl#Class>;
+  rdfs:label "Kashi City Hospital"@en, "喀什市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C269> a <http://www.w3.org/2002/276/owl#Class>;
+  rdfs:label "symptom"@en, "症状"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C270> a <http://www.w3.org/2002/277/owl#Class>;
+  rdfs:label "Songyuan City Hospital"@en, "松原市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C271> a <http://www.w3.org/2002/278/owl#Class>;
+  rdfs:label "Cell immunoassays"@en, "细胞免疫测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C272> a <http://www.w3.org/2002/279/owl#Class>;
+  rdfs:label "Organ transplant matching HLA genotyping"@en, "器官移植配型HLA基因分型检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C215> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C273> a <http://www.w3.org/2002/280/owl#Class>;
+  rdfs:label "Chromosomal diseases and genetic disorders genetic testing"@en, "染色体病和遗传性疾病基因检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C215> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C274> a <http://www.w3.org/2002/281/owl#Class>;
+  rdfs:label "Xiqing District Hospital"@en, "西青区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C275> a <http://www.w3.org/2002/282/owl#Class>;
+  rdfs:label "Shashi Hospital"@en, "三沙市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C276> a <http://www.w3.org/2002/283/owl#Class>;
+  rdfs:label "Tower City Hospital"@en, "塔城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C277> a <http://www.w3.org/2002/284/owl#Class>;
+  rdfs:label "Non-cellular life"@en, "非细胞生物"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C304> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C278> a <http://www.w3.org/2002/285/owl#Class>;
+  rdfs:label "Staining"@en, "细胞化学染色"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C279> a <http://www.w3.org/2002/286/owl#Class>;
+  rdfs:label "Jiulongpo District Hospital"@en, "九龙坡区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C280> a <http://www.w3.org/2002/287/owl#Class>;
+  rdfs:label "Nanchuan District Hospital"@en, "南川区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C281> a <http://www.w3.org/2002/288/owl#Class>;
+  rdfs:label "Hechi City Hospital"@en, "河池市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C282> a <http://www.w3.org/2002/289/owl#Class>;
+  rdfs:label "Zhengzhou City Hospital"@en, "郑州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C283> a <http://www.w3.org/2002/290/owl#Class>;
+  rdfs:label "Xiushan Tujia and Miao Autonomous County Hospital"@en, "秀山土家族苗族自治县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C284> a <http://www.w3.org/2002/291/owl#Class>;
+  rdfs:label "Yinchuan City Hospital"@en, "银川市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C396> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C285> a <http://www.w3.org/2002/292/owl#Class>;
+  rdfs:label "Sanmenxia City Hospital"@en, "三门峡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C286> a <http://www.w3.org/2002/293/owl#Class>;
+  rdfs:label "Guigang City Hospital"@en, "贵港市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C287> a <http://www.w3.org/2002/294/owl#Class>;
+  rdfs:label "Qiqihar City Hospital"@en, "齐齐哈尔市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C288> a <http://www.w3.org/2002/295/owl#Class>;
+  rdfs:label "Hormones check"@en, "激素类检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C289> a <http://www.w3.org/2002/296/owl#Class>;
+  rdfs:label "Zhong County Hospital"@en, "忠县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C290> a <http://www.w3.org/2002/297/owl#Class>;
+  rdfs:label "Wulong County Hospital"@en, "武隆县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C291> a <http://www.w3.org/2002/298/owl#Class>;
+  rdfs:label "Shijingshan District Hospital"@en, "石景山区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C292> a <http://www.w3.org/2002/299/owl#Class>;
+  rdfs:label "Novel coronavirus pneumonia designated hospital"@en, "新型冠状病毒肺炎定点收治医院"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C293> a <http://www.w3.org/2002/300/owl#Class>;
+  rdfs:label "Xianyang City Hospital"@en, "咸阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C294> a <http://www.w3.org/2002/301/owl#Class>;
+  rdfs:label "Lincang City Hospital"@en, "临沧市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C295> a <http://www.w3.org/2002/302/owl#Class>;
+  rdfs:label "Yangpu District Hospital"@en, "杨浦区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C296> a <http://www.w3.org/2002/303/owl#Class>;
+  rdfs:label "Guangyuan Hospital"@en, "广元市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C297> a <http://www.w3.org/2002/304/owl#Class>;
+  rdfs:label "Luohe City Hospital"@en, "漯河市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C298> a <http://www.w3.org/2002/305/owl#Class>;
+  rdfs:label "Nanping City Hospital"@en, "南平市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C299> a <http://www.w3.org/2002/306/owl#Class>;
+  rdfs:label "Dali City Hospital"@en, "大理市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C300> a <http://www.w3.org/2002/307/owl#Class>;
+  rdfs:label "Chizhou hospital"@en, "池州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C301> a <http://www.w3.org/2002/308/owl#Class>;
+  rdfs:label "Bacterial culture and identification"@en, "细菌培养与鉴定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C222> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C302> a <http://www.w3.org/2002/309/owl#Class>;
+  rdfs:label "Foshan City Hospital"@en, "佛山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C303> a <http://www.w3.org/2002/310/owl#Class>;
+  rdfs:label "Cardiovascular (circulatory system)"@en, "心血管系统（循环系统）"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C304> a <http://www.w3.org/2002/311/owl#Class>;
+  rdfs:label "biological"@en, "生物"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C305> a <http://www.w3.org/2002/312/owl#Class>;
+  rdfs:label "Beihai City Hospital"@en, "北海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C306> a <http://www.w3.org/2002/313/owl#Class>;
+  rdfs:label "Harbin Hospital"@en, "哈尔滨市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C307> a <http://www.w3.org/2002/314/owl#Class>;
+  rdfs:label "Hangzhou Hospital"@en, "杭州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C308> a <http://www.w3.org/2002/315/owl#Class>;
+  rdfs:label "Mianyang City Hospital"@en, "绵阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C309> a <http://www.w3.org/2002/316/owl#Class>;
+  rdfs:label "Fengjie County Hospital"@en, "奉节县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C310> a <http://www.w3.org/2002/317/owl#Class>;
+  rdfs:label "Shijiazhuang City Hospital"@en, "石家庄市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C311> a <http://www.w3.org/2002/318/owl#Class>;
+  rdfs:label "virus"@en, "病毒"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C277>, <http://www.openkg.cn/2019-nCoV/health/class/C4> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C312> a <http://www.w3.org/2002/319/owl#Class>;
+  rdfs:label "Zhumadian City Hospital"@en, "驻马店市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C313> a <http://www.w3.org/2002/320/owl#Class>;
+  rdfs:label "Yulin City Hospital"@en, "榆林市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C314> a <http://www.w3.org/2002/321/owl#Class>;
+  rdfs:label "Endocrine System"@en, "内分泌系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C315> a <http://www.w3.org/2002/322/owl#Class>;
+  rdfs:label "Ali City Hospital"@en, "阿里市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C316> a <http://www.w3.org/2002/323/owl#Class>;
+  rdfs:label "Tangshan City Hospital"@en, "唐山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C317> a <http://www.w3.org/2002/324/owl#Class>;
+  rdfs:label "Other immunological tests"@en, "其他免疫学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C318> a <http://www.w3.org/2002/325/owl#Class>;
+  rdfs:label "Semen"@en, "精液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C319> a <http://www.w3.org/2002/326/owl#Class>;
+  rdfs:label "Yangjiang City Hospital"@en, "阳江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C320> a <http://www.w3.org/2002/327/owl#Class>;
+  rdfs:label "Interventional diagnostic tests"@en, "介入诊断检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C321> a <http://www.w3.org/2002/328/owl#Class>;
+  rdfs:label "Fushun City hospital"@en, "抚顺市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C322> a <http://www.w3.org/2002/329/owl#Class>;
+  rdfs:label "Tianshui City Hospital"@en, "天水市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C323> a <http://www.w3.org/2002/330/owl#Class>;
+  rdfs:label "ordinary inspection"@en, "一般检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C324> a <http://www.w3.org/2002/331/owl#Class>;
+  rdfs:label "Qijiang District Hospital"@en, "綦江区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C325> a <http://www.w3.org/2002/332/owl#Class>;
+  rdfs:label "Changning District Hospital"@en, "长宁区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C326> a <http://www.w3.org/2002/333/owl#Class>;
+  rdfs:label "Jingzhou City Hospital"@en, "荆州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C327> a <http://www.w3.org/2002/334/owl#Class>;
+  rdfs:label "Youyang Tujia and Miao Autonomous County Hospital"@en, "酉阳土家族苗族自治县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C328> a <http://www.w3.org/2002/335/owl#Class>;
+  rdfs:label "Anshun City Hospital"@en, "安顺市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C329> a <http://www.w3.org/2002/336/owl#Class>;
+  rdfs:label "Laibin hospital"@en, "来宾市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C330> a <http://www.w3.org/2002/337/owl#Class>;
+  rdfs:label "Quanzhou Hospital"@en, "泉州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C331> a <http://www.w3.org/2002/338/owl#Class>;
+  rdfs:label "Shanwei City Hospital"@en, "汕尾市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C332> a <http://www.w3.org/2002/339/owl#Class>;
+  rdfs:label "Qinzhou City Hospital"@en, "钦州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C333> a <http://www.w3.org/2002/340/owl#Class>;
+  rdfs:label "Shangluo City Hospital"@en, "商洛市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C334> a <http://www.w3.org/2002/341/owl#Class>;
+  rdfs:label "Hengyang City Hospital"@en, "衡阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C335> a <http://www.w3.org/2002/342/owl#Class>;
+  rdfs:label "Sputum examination"@en, "痰液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C336> a <http://www.w3.org/2002/343/owl#Class>;
+  rdfs:label "Heyuan City Hospital"@en, "河源市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C337> a <http://www.w3.org/2002/344/owl#Class>;
+  rdfs:label "Hunan Provincial Hospital"@en, "湖南省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C338> a <http://www.w3.org/2002/345/owl#Class>;
+  rdfs:label "Antipyretic and analgesic drug testing"@en, "解热镇痛类药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C339> a <http://www.w3.org/2002/346/owl#Class>;
+  rdfs:label "Xiangtan City Hospital"@en, "湘潭市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C340> a <http://www.w3.org/2002/347/owl#Class>;
+  rdfs:label "Vaginal and cervical secretions"@en, "阴道及宫颈分泌物检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C341> a <http://www.w3.org/2002/348/owl#Class>;
+  rdfs:label "Longnan City Hospital"@en, "陇南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C342> a <http://www.w3.org/2002/349/owl#Class>;
+  rdfs:label "Ledong City Hospital"@en, "乐东市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C343> a <http://www.w3.org/2002/350/owl#Class>;
+  rdfs:label "Liupanshui City Hospital"@en, "六盘水市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C344> a <http://www.w3.org/2002/351/owl#Class>;
+  rdfs:label "Yulin City Hospital"@en, "玉林市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C345> a <http://www.w3.org/2002/352/owl#Class>;
+  rdfs:label "Aba City Hospital"@en, "阿坝市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C346> a <http://www.w3.org/2002/353/owl#Class>;
+  rdfs:label "Ma'anshan City Hospital"@en, "马鞍山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C347> a <http://www.w3.org/2002/354/owl#Class>;
+  rdfs:label "Dingxi City Hospital"@en, "定西市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C348> a <http://www.w3.org/2002/355/owl#Class>;
+  rdfs:label "Jilin Province Hospital"@en, "吉林省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C349> a <http://www.w3.org/2002/356/owl#Class>;
+  rdfs:label "Fungal culture and identification"@en, "霉菌培养与鉴定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C222> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C350> a <http://www.w3.org/2002/357/owl#Class>;
+  rdfs:label "Dianjiang County Hospital"@en, "垫江县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C351> a <http://www.w3.org/2002/358/owl#Class>;
+  rdfs:label "Cardiac glycosides drug testing"@en, "强心苷类药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C352> a <http://www.w3.org/2002/359/owl#Class>;
+  rdfs:label "Xianning City Hospital"@en, "咸宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C353> a <http://www.w3.org/2002/360/owl#Class>;
+  rdfs:label "Xuchang City Hospital"@en, "许昌市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C354> a <http://www.w3.org/2002/361/owl#Class>;
+  rdfs:label "Qianjiang City Hospital"@en, "潜江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C355> a <http://www.w3.org/2002/362/owl#Class>;
+  rdfs:label "Bishan District Hospital"@en, "璧山区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C356> a <http://www.w3.org/2002/363/owl#Class>;
+  rdfs:label "Karamay City Hospital"@en, "克拉玛依市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C357> a <http://www.w3.org/2002/364/owl#Class>;
+  rdfs:label "Zhangye City Hospital"@en, "张掖市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C358> a <http://www.w3.org/2002/365/owl#Class>;
+  rdfs:label "Antibiotics detected"@en, "抗生素类药物检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C127> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C359> a <http://www.w3.org/2002/366/owl#Class>;
+  rdfs:label "Xuzhou City Hospital"@en, "徐州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C360> a <http://www.w3.org/2002/367/owl#Class>;
+  rdfs:label "Mentougou District Hospital"@en, "门头沟区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C361> a <http://www.w3.org/2002/368/owl#Class>;
+  rdfs:label "Qionghai City Hospital"@en, "琼海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C362> a <http://www.w3.org/2002/369/owl#Class>;
+  rdfs:label "Jiangxi Provincial Hospital"@en, "江西省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C363> a <http://www.w3.org/2002/370/owl#Class>;
+  rdfs:label "Liaoyuan City Hospital"@en, "辽源市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C364> a <http://www.w3.org/2002/371/owl#Class>;
+  rdfs:label "Baoding hospital"@en, "保定市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C365> a <http://www.w3.org/2002/372/owl#Class>;
+  rdfs:label "Wushan County Hospital"@en, "巫山县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C366> a <http://www.w3.org/2002/373/owl#Class>;
+  rdfs:label "Fujian Provincial Hospital"@en, "福建省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C367> a <http://www.w3.org/2002/374/owl#Class>;
+  rdfs:label "Fengdu County Hospital"@en, "丰都县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C368> a <http://www.w3.org/2002/375/owl#Class>;
+  rdfs:label "DNA"@en, "DNA"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C241> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C369> a <http://www.w3.org/2002/376/owl#Class>;
+  rdfs:label "Lishui City Hospital"@en, "丽水市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C370> a <http://www.w3.org/2002/377/owl#Class>;
+  rdfs:label "Qinhuangdao City Hospital"@en, "秦皇岛市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C371> a <http://www.w3.org/2002/378/owl#Class>;
+  rdfs:label "Taizhou Hospital"@en, "台州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C372> a <http://www.w3.org/2002/379/owl#Class>;
+  rdfs:label "Chemical examination"@en, "化学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C430> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C373> a <http://www.w3.org/2002/380/owl#Class>;
+  rdfs:label "Xinjiang Hospital"@en, "新疆省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C374> a <http://www.w3.org/2002/381/owl#Class>;
+  rdfs:label "Yan'an City Hospital"@en, "延安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C375> a <http://www.w3.org/2002/382/owl#Class>;
+  rdfs:label "Body fluids and excreta inspection"@en, "体液和排泄物检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C376> a <http://www.w3.org/2002/383/owl#Class>;
+  rdfs:label "Xiamen City Hospital"@en, "厦门市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C377> a <http://www.w3.org/2002/384/owl#Class>;
+  rdfs:label "Prostatic fluid examination"@en, "前列腺液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C378> a <http://www.w3.org/2002/385/owl#Class>;
+  rdfs:label "Yangzhou City Hospital"@en, "扬州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C379> a <http://www.w3.org/2002/386/owl#Class>;
+  rdfs:label "Bayannaoer Hospital"@en, "巴彦淖尔市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C380> a <http://www.w3.org/2002/387/owl#Class>;
+  rdfs:label "Changde City Hospital"@en, "常德市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C381> a <http://www.w3.org/2002/388/owl#Class>;
+  rdfs:label "Pinggu District Hospital"@en, "平谷区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C382> a <http://www.w3.org/2002/389/owl#Class>;
+  rdfs:label "Autotrophs"@en, "自养生物"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C304> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C383> a <http://www.w3.org/2002/390/owl#Class>;
+  rdfs:label "Lanzhou City Hospital"@en, "兰州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C384> a <http://www.w3.org/2002/391/owl#Class>;
+  rdfs:label "Linyi City Hospital"@en, "临沂市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C385> a <http://www.w3.org/2002/392/owl#Class>;
+  rdfs:label "Chuzhou City Hospital"@en, "滁州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C386> a <http://www.w3.org/2002/393/owl#Class>;
+  rdfs:label "Wenshan City Hospital"@en, "文山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C387> a <http://www.w3.org/2002/394/owl#Class>;
+  rdfs:label "Meishan City Hospital"@en, "眉山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C388> a <http://www.w3.org/2002/395/owl#Class>;
+  rdfs:label "Sanming City Hospital"@en, "三明市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C389> a <http://www.w3.org/2002/396/owl#Class>;
+  rdfs:label "Yunnan Province Hospital"@en, "云南省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C390> a <http://www.w3.org/2002/397/owl#Class>;
+  rdfs:label "Blood tests"@en, "血液生化检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C391> a <http://www.w3.org/2002/398/owl#Class>;
+  rdfs:label "Bristol City Hospital"@en, "仙桃市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C392> a <http://www.w3.org/2002/399/owl#Class>;
+  rdfs:label "Pengshui Miao and Tujia Autonomous County Hospital"@en, "彭水苗族土家族自治县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C393> a <http://www.w3.org/2002/400/owl#Class>;
+  rdfs:label "Dadukou District Hospital"@en, "大渡口区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C394> a <http://www.w3.org/2002/401/owl#Class>;
+  rdfs:label "Chuxiong City Hospital"@en, "楚雄市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C395> a <http://www.w3.org/2002/402/owl#Class>;
+  rdfs:label "Jiaxing City Hospital"@en, "嘉兴市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C396> a <http://www.w3.org/2002/403/owl#Class>;
+  rdfs:label "Ningxia Hospital"@en, "宁夏省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C397> a <http://www.w3.org/2002/404/owl#Class>;
+  rdfs:label "Putian City Hospital"@en, "莆田市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C398> a <http://www.w3.org/2002/405/owl#Class>;
+  rdfs:label "Cangzhou City Hospital"@en, "沧州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C399> a <http://www.w3.org/2002/406/owl#Class>;
+  rdfs:label "Guyuan City Hospital"@en, "固原市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C396> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C400> a <http://www.w3.org/2002/407/owl#Class>;
+  rdfs:label "Jinhua City Hospital"@en, "金华市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C401> a <http://www.w3.org/2002/408/owl#Class>;
+  rdfs:label "pneumonia"@en, "肺炎"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C138> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C402> a <http://www.w3.org/2002/409/owl#Class>;
+  rdfs:label "Hebei District Hospital"@en, "河北区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C403> a <http://www.w3.org/2002/410/owl#Class>;
+  rdfs:label "Baisha City Hospital"@en, "白沙市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C404> a <http://www.w3.org/2002/411/owl#Class>;
+  rdfs:label "Shaoyang City Hospital"@en, "邵阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C405> a <http://www.w3.org/2002/412/owl#Class>;
+  rdfs:label "Nanning City Hospital"@en, "南宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C406> a <http://www.w3.org/2002/413/owl#Class>;
+  rdfs:label "Zaozhuang City Hospital"@en, "枣庄市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C407> a <http://www.w3.org/2002/414/owl#Class>;
+  rdfs:label "Silver City Hospital"@en, "白银市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C408> a <http://www.w3.org/2002/415/owl#Class>;
+  rdfs:label "Anhui Provincial Hospital"@en, "安徽省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C409> a <http://www.w3.org/2002/416/owl#Class>;
+  rdfs:label "Hechuan District Hospital"@en, "合川区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C410> a <http://www.w3.org/2002/417/owl#Class>;
+  rdfs:label "Pulmonary function tests"@en, "肺功能检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C411> a <http://www.w3.org/2002/418/owl#Class>;
+  rdfs:label "Kaifeng City Hospital"@en, "开封市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C412> a <http://www.w3.org/2002/419/owl#Class>;
+  rdfs:label "Wulanchabu City Hospital"@en, "乌兰察布市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C413> a <http://www.w3.org/2002/420/owl#Class>;
+  rdfs:label "Fuyang City Hospital"@en, "阜阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C414> a <http://www.w3.org/2002/421/owl#Class>;
+  rdfs:label "Haidian District Hospital"@en, "海淀区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C415> a <http://www.w3.org/2002/422/owl#Class>;
+  rdfs:label "Jinchang City Hospital"@en, "金昌市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C416> a <http://www.w3.org/2002/423/owl#Class>;
+  rdfs:label "Urine"@en, "尿液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C417> a <http://www.w3.org/2002/424/owl#Class>;
+  rdfs:label "Jizhou District Hospital"@en, "蓟州区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C418> a <http://www.w3.org/2002/425/owl#Class>;
+  rdfs:label "Banan District Hospital"@en, "巴南区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C419> a <http://www.w3.org/2002/426/owl#Class>;
+  rdfs:label "Stool examination"@en, "粪便检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C420> a <http://www.w3.org/2002/427/owl#Class>;
+  rdfs:label "Western medicine"@en, "西药"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C421> a <http://www.w3.org/2002/428/owl#Class>;
+  rdfs:label "Changzhi City Hospital"@en, "长治市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C422> a <http://www.w3.org/2002/429/owl#Class>;
+  rdfs:label "Inner Mongolia Provincial Hospital"@en, "内蒙古省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C423> a <http://www.w3.org/2002/430/owl#Class>;
+  rdfs:label "Tongzhou District Hospital"@en, "通州区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C424> a <http://www.w3.org/2002/431/owl#Class>;
+  rdfs:label "Puyang City Hospital"@en, "濮阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C425> a <http://www.w3.org/2002/432/owl#Class>;
+  rdfs:label "Immunoglobulin complement assay"@en, "免疫球蛋白与补体测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C426> a <http://www.w3.org/2002/433/owl#Class>;
+  rdfs:label "Yanbian City Hospital"@en, "延边市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C427> a <http://www.w3.org/2002/434/owl#Class>;
+  rdfs:label "Ninghe District Hospital"@en, "宁河区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C428> a <http://www.w3.org/2002/435/owl#Class>;
+  rdfs:label "Hebi City Hospital"@en, "鹤壁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C429> a <http://www.w3.org/2002/436/owl#Class>;
+  rdfs:label "Weihai City Hospital"@en, "威海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C430> a <http://www.w3.org/2002/437/owl#Class>;
+  rdfs:label "an examination"@en, "检查"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C431> a <http://www.w3.org/2002/438/owl#Class>;
+  rdfs:label "Zhaotong City Hospital"@en, "昭通市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C432> a <http://www.w3.org/2002/439/owl#Class>;
+  rdfs:label "Jieyang City Hospital"@en, "揭阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C433> a <http://www.w3.org/2002/440/owl#Class>;
+  rdfs:label "Jining City hospital"@en, "济宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C434> a <http://www.w3.org/2002/441/owl#Class>;
+  rdfs:label "Danzhou hospital"@en, "儋州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C435> a <http://www.w3.org/2002/442/owl#Class>;
+  rdfs:label "Heart EEG"@en, "心脑电图检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C436> a <http://www.w3.org/2002/443/owl#Class>;
+  rdfs:label "Miyun District Hospital"@en, "密云区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C437> a <http://www.w3.org/2002/444/owl#Class>;
+  rdfs:label "Tibet's provincial hospital"@en, "西藏省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C438> a <http://www.w3.org/2002/445/owl#Class>;
+  rdfs:label "Guizhou Province Hospital"@en, "贵州省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C439> a <http://www.w3.org/2002/446/owl#Class>;
+  rdfs:label "Zhoukou City Hospital"@en, "周口市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C440> a <http://www.w3.org/2002/447/owl#Class>;
+  rdfs:label "Changjiang City Hospital"@en, "昌江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C441> a <http://www.w3.org/2002/448/owl#Class>;
+  rdfs:label "Qingyuan City Hospital"@en, "清远市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C442> a <http://www.w3.org/2002/449/owl#Class>;
+  rdfs:label "Deyang City Hospital"@en, "德阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C443> a <http://www.w3.org/2002/450/owl#Class>;
+  rdfs:label "Tonghua City Hospital"@en, "通化市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C444> a <http://www.w3.org/2002/451/owl#Class>;
+  rdfs:label "Respiratory system"@en, "呼吸系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C445> a <http://www.w3.org/2002/452/owl#Class>;
+  rdfs:label "Jiangbei District Hospital"@en, "江北区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C446> a <http://www.w3.org/2002/453/owl#Class>;
+  rdfs:label "Changshou District Hospital"@en, "长寿区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C447> a <http://www.w3.org/2002/454/owl#Class>;
+  rdfs:label "Blood transfusion"@en, "血型与输血"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C448> a <http://www.w3.org/2002/455/owl#Class>;
+  rdfs:label "Chongming District Hospital"@en, "崇明区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C449> a <http://www.w3.org/2002/456/owl#Class>;
+  rdfs:label "Jinnan District Hospital"@en, "津南区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C450> a <http://www.w3.org/2002/457/owl#Class>;
+  rdfs:label "Qujing City Hospital"@en, "曲靖市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C451> a <http://www.w3.org/2002/458/owl#Class>;
+  rdfs:label "Immunology"@en, "免疫学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C452> a <http://www.w3.org/2002/459/owl#Class>;
+  rdfs:label "Zhangjiakou City Hospital"@en, "张家口市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C453> a <http://www.w3.org/2002/460/owl#Class>;
+  rdfs:label "Tumor gene detection"@en, "肿瘤基因检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C215> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C454> a <http://www.w3.org/2002/461/owl#Class>;
+  rdfs:label "Ji'an City Hospital"@en, "吉安市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C455> a <http://www.w3.org/2002/462/owl#Class>;
+  rdfs:label "Reproductive system"@en, "生殖系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C456> a <http://www.w3.org/2002/463/owl#Class>;
+  rdfs:label "Protein Assay"@en, "蛋白质测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C457> a <http://www.w3.org/2002/464/owl#Class>;
+  rdfs:label "Huaihua City Hospital"@en, "怀化市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C458> a <http://www.w3.org/2002/465/owl#Class>;
+  rdfs:label "Obstetric and neonatal screening"@en, "产科和新生儿检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C459> a <http://www.w3.org/2002/466/owl#Class>;
+  rdfs:label "Huanggang City Hospital"@en, "黄冈市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C460> a <http://www.w3.org/2002/467/owl#Class>;
+  rdfs:label "Tongren Hospital"@en, "铜仁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C461> a <http://www.w3.org/2002/468/owl#Class>;
+  rdfs:label "Autoantibodies"@en, "自身抗体检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C451> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C462> a <http://www.w3.org/2002/469/owl#Class>;
+  rdfs:label "Huang Nanshi hospital"@en, "黄南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C463> a <http://www.w3.org/2002/470/owl#Class>;
+  rdfs:label "Sanya City Hospital"@en, "三亚市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C464> a <http://www.w3.org/2002/471/owl#Class>;
+  rdfs:label "Daqing City Hospital"@en, "大庆市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C465> a <http://www.w3.org/2002/472/owl#Class>;
+  rdfs:label "Linxia City Hospital"@en, "临夏市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C466> a <http://www.w3.org/2002/473/owl#Class>;
+  rdfs:label "Suzhou City Hospital"@en, "苏州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C467> a <http://www.w3.org/2002/474/owl#Class>;
+  rdfs:label "Other hormone determination"@en, "其他激素测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C288> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C468> a <http://www.w3.org/2002/475/owl#Class>;
+  rdfs:label "Zhangjiajie City Hospital"@en, "张家界市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C469> a <http://www.w3.org/2002/476/owl#Class>;
+  rdfs:label "Jingmen City Hospital"@en, "荆门市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C470> a <http://www.w3.org/2002/477/owl#Class>;
+  rdfs:label "Effusion examination"@en, "浆膜腔积液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C471> a <http://www.w3.org/2002/478/owl#Class>;
+  rdfs:label "Xining City Hospital"@en, "西宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C472> a <http://www.w3.org/2002/479/owl#Class>;
+  rdfs:label "Binzhou City Hospital"@en, "滨州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C19> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C473> a <http://www.w3.org/2002/480/owl#Class>;
+  rdfs:label "Wenzhou City Hospital"@en, "温州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C474> a <http://www.w3.org/2002/481/owl#Class>;
+  rdfs:label "Changping District Hospital"@en, "昌平区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C475> a <http://www.w3.org/2002/482/owl#Class>;
+  rdfs:label "Zigong City Hospital"@en, "自贡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C476> a <http://www.w3.org/2002/483/owl#Class>;
+  rdfs:label "Changji City Hospital"@en, "昌吉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C477> a <http://www.w3.org/2002/484/owl#Class>;
+  rdfs:label "Liangshan City Hospital"@en, "凉山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C478> a <http://www.w3.org/2002/485/owl#Class>;
+  rdfs:label "Xiaogan City Hospital"@en, "孝感市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C479> a <http://www.w3.org/2002/486/owl#Class>;
+  rdfs:label "Liaoyang City Hospital"@en, "辽阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C480> a <http://www.w3.org/2002/487/owl#Class>;
+  rdfs:label "Baoji City Hospital"@en, "宝鸡市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C481> a <http://www.w3.org/2002/488/owl#Class>;
+  rdfs:label "Shenyang Hospital"@en, "沈阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C482> a <http://www.w3.org/2002/489/owl#Class>;
+  rdfs:label "Ziyang City Hospital"@en, "资阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C483> a <http://www.w3.org/2002/490/owl#Class>;
+  rdfs:label "Chinese standard"@en, "中国标准"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C16> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C484> a <http://www.w3.org/2002/491/owl#Class>;
+  rdfs:label "Bayinguoleng City Hospital"@en, "巴音郭楞市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C485> a <http://www.w3.org/2002/492/owl#Class>;
+  rdfs:label "Neijiang City Hospital"@en, "内江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C486> a <http://www.w3.org/2002/493/owl#Class>;
+  rdfs:label "Lhasa City Hospital"@en, "拉萨市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C487> a <http://www.w3.org/2002/494/owl#Class>;
+  rdfs:label "Wenchang City Hospital"@en, "文昌市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C488> a <http://www.w3.org/2002/495/owl#Class>;
+  rdfs:label "Zhoushan City Hospital"@en, "舟山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C489> a <http://www.w3.org/2002/496/owl#Class>;
+  rdfs:label "Lingao county hospital"@en, "临高县市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C490> a <http://www.w3.org/2002/497/owl#Class>;
+  rdfs:label "Loudi City Hospital"@en, "娄底市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C491> a <http://www.w3.org/2002/498/owl#Class>;
+  rdfs:label "Nanyang City Hospital"@en, "南阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C32> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C492> a <http://www.w3.org/2002/499/owl#Class>;
+  rdfs:label "Yushu City Hospital"@en, "玉树市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C30> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C493> a <http://www.w3.org/2002/500/owl#Class>;
+  rdfs:label "Handan City Hospital"@en, "邯郸市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C494> a <http://www.w3.org/2002/501/owl#Class>;
+  rdfs:label "Chenzhou City Hospital"@en, "郴州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C495> a <http://www.w3.org/2002/502/owl#Class>;
+  rdfs:label "Xigaze City Hospital"@en, "日喀则市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C496> a <http://www.w3.org/2002/503/owl#Class>;
+  rdfs:label "Dandong City Hospital"@en, "丹东市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C497> a <http://www.w3.org/2002/504/owl#Class>;
+  rdfs:label "Xuancheng City Hospital"@en, "宣城市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C498> a <http://www.w3.org/2002/505/owl#Class>;
+  rdfs:label "Inorganic Ion"@en, "无机离子测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C499> a <http://www.w3.org/2002/506/owl#Class>;
+  rdfs:label "Nantong City Hospital"@en, "南通市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C68> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C500> a <http://www.w3.org/2002/507/owl#Class>;
+  rdfs:label "Zhuzhou City Hospital"@en, "株洲市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C501> a <http://www.w3.org/2002/508/owl#Class>;
+  rdfs:label "Fuxin City Hospital"@en, "阜新市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C502> a <http://www.w3.org/2002/509/owl#Class>;
+  rdfs:label "Tongliao City Hospital"@en, "通辽市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C503> a <http://www.w3.org/2002/510/owl#Class>;
+  rdfs:label "drug"@en, "药物"@zh-cn;
+  rdfs:subClassOf owl:Thing .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C504> a <http://www.w3.org/2002/511/owl#Class>;
+  rdfs:label "Wuzhou City Hospital"@en, "梧州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C505> a <http://www.w3.org/2002/512/owl#Class>;
+  rdfs:label "Baoshan District Hospital"@en, "宝山区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C506> a <http://www.w3.org/2002/513/owl#Class>;
+  rdfs:label "Baise City Hospital"@en, "百色市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C507> a <http://www.w3.org/2002/514/owl#Class>;
+  rdfs:label "CSF examination"@en, "脑脊液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C508> a <http://www.w3.org/2002/515/owl#Class>;
+  rdfs:label "Other body fluids check"@en, "其他体液检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C509> a <http://www.w3.org/2002/516/owl#Class>;
+  rdfs:label "Quzhou City Hospital"@en, "衢州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C189> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C510> a <http://www.w3.org/2002/517/owl#Class>;
+  rdfs:label "Individual administration of nucleic acid detection"@en, "用药个体化核酸检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C215> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C511> a <http://www.w3.org/2002/518/owl#Class>;
+  rdfs:label "Xinyu City Hospital"@en, "新余市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C512> a <http://www.w3.org/2002/519/owl#Class>;
+  rdfs:label "Daxinganling City Hospital"@en, "大兴安岭市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C513> a <http://www.w3.org/2002/520/owl#Class>;
+  rdfs:label "Shangrao City Hospital"@en, "上饶市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C514> a <http://www.w3.org/2002/521/owl#Class>;
+  rdfs:label "Shizhu Tujia Autonomous County Hospital"@en, "石柱土家族自治县医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C515> a <http://www.w3.org/2002/522/owl#Class>;
+  rdfs:label "Zhanjiang City Hospital"@en, "湛江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C516> a <http://www.w3.org/2002/523/owl#Class>;
+  rdfs:label "Jilin City Hospital"@en, "吉林市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C517> a <http://www.w3.org/2002/524/owl#Class>;
+  rdfs:label "Yongzhou hospital"@en, "永州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C518> a <http://www.w3.org/2002/525/owl#Class>;
+  rdfs:label "Chifeng City Hospital"@en, "赤峰市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C519> a <http://www.w3.org/2002/526/owl#Class>;
+  rdfs:label "Shunyi District Hospital"@en, "顺义区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C520> a <http://www.w3.org/2002/527/owl#Class>;
+  rdfs:label "Mudanjiang City Hospital"@en, "牡丹江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C521> a <http://www.w3.org/2002/528/owl#Class>;
+  rdfs:label "Huangshan City Hospital"@en, "黄山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C522> a <http://www.w3.org/2002/529/owl#Class>;
+  rdfs:label "Qianxinan City Hospital"@en, "黔西南州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C438> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C523> a <http://www.w3.org/2002/530/owl#Class>;
+  rdfs:label "Determination of glucose metabolism"@en, "糖代谢测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C524> a <http://www.w3.org/2002/531/owl#Class>;
+  rdfs:label "Xuhui District Hospital"@en, "徐汇区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C525> a <http://www.w3.org/2002/532/owl#Class>;
+  rdfs:label "Daxing District Hospital"@en, "大兴区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C537> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C526> a <http://www.w3.org/2002/533/owl#Class>;
+  rdfs:label "Tongchuan City Hospital"@en, "铜川市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C190> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C527> a <http://www.w3.org/2002/534/owl#Class>;
+  rdfs:label "Baodi District Hospital"@en, "宝坻区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C528> a <http://www.w3.org/2002/535/owl#Class>;
+  rdfs:label "Nyingchi hospital"@en, "林芝市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C529> a <http://www.w3.org/2002/536/owl#Class>;
+  rdfs:label "Yueyang Hospital"@en, "岳阳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C337> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C530> a <http://www.w3.org/2002/537/owl#Class>;
+  rdfs:label "Hubei Province Hospital"@en, "湖北省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C531> a <http://www.w3.org/2002/538/owl#Class>;
+  rdfs:label "Masks"@en, "口罩"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C100> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C532> a <http://www.w3.org/2002/539/owl#Class>;
+  rdfs:label "Fuzhou City Hospital"@en, "抚州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C362> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C533> a <http://www.w3.org/2002/540/owl#Class>;
+  rdfs:label "Huangshi City Hospital"@en, "黄石市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C534> a <http://www.w3.org/2002/541/owl#Class>;
+  rdfs:label "Jinshan District Hospital"@en, "金山区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C535> a <http://www.w3.org/2002/542/owl#Class>;
+  rdfs:label "Blood gas measurement"@en, "血气测定"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C390> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C536> a <http://www.w3.org/2002/543/owl#Class>;
+  rdfs:label "Xishuangbanna City Hospital"@en, "西双版纳市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C537> a <http://www.w3.org/2002/544/owl#Class>;
+  rdfs:label "Beijing Hospital"@en, "北京市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C538> a <http://www.w3.org/2002/545/owl#Class>;
+  rdfs:label "Biological product"@en, "生物制品"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C539> a <http://www.w3.org/2002/546/owl#Class>;
+  rdfs:label "Hami City Hospital"@en, "哈密市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C540> a <http://www.w3.org/2002/547/owl#Class>;
+  rdfs:label "Ultrasound (B super, A super)"@en, "超声（B超、A超）"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C541> a <http://www.w3.org/2002/548/owl#Class>;
+  rdfs:label "Chinese medicine"@en, "中成药"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C542> a <http://www.w3.org/2002/549/owl#Class>;
+  rdfs:label "Hedong District Hospital"@en, "河东区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C231> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C543> a <http://www.w3.org/2002/550/owl#Class>;
+  rdfs:label "Pathogenic microorganism nucleic acid detection"@en, "病原微生物核酸检测"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C215> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C544> a <http://www.w3.org/2002/551/owl#Class>;
+  rdfs:label "Wuwei City Hospital"@en, "武威市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C545> a <http://www.w3.org/2002/552/owl#Class>;
+  rdfs:label "Liaoning Province Hospital"@en, "辽宁省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C546> a <http://www.w3.org/2002/553/owl#Class>;
+  rdfs:label "Zhangzhou City Hospital"@en, "漳州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C366> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C547> a <http://www.w3.org/2002/554/owl#Class>;
+  rdfs:label "Shanghai hospital"@en, "上海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C548> a <http://www.w3.org/2002/555/owl#Class>;
+  rdfs:label "Xing'an League City Hospital"@en, "兴安盟市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C549> a <http://www.w3.org/2002/556/owl#Class>;
+  rdfs:label "Other clinical blood tests"@en, "其他临床血液学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C568> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C550> a <http://www.w3.org/2002/557/owl#Class>;
+  rdfs:label "Liuzhou hospital"@en, "柳州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C551> a <http://www.w3.org/2002/558/owl#Class>;
+  rdfs:label "Zhuhai City Hospital"@en, "珠海市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C552> a <http://www.w3.org/2002/559/owl#Class>;
+  rdfs:label "Yangquan City Hospital"@en, "阳泉市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C553> a <http://www.w3.org/2002/560/owl#Class>;
+  rdfs:label "Nan Shan Hospital"@en, "山南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C437> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C554> a <http://www.w3.org/2002/561/owl#Class>;
+  rdfs:label "Heihe City Hospital"@en, "黑河市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C136> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C555> a <http://www.w3.org/2002/562/owl#Class>;
+  rdfs:label "Red River City Hospital"@en, "红河市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C556> a <http://www.w3.org/2002/563/owl#Class>;
+  rdfs:label "Kunming Hospital"@en, "昆明市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C557> a <http://www.w3.org/2002/564/owl#Class>;
+  rdfs:label "Huludao City Hospital"@en, "葫芦岛市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C545> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C558> a <http://www.w3.org/2002/565/owl#Class>;
+  rdfs:label "Gannan City Hospital"@en, "甘南市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C559> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C559> a <http://www.w3.org/2002/566/owl#Class>;
+  rdfs:label "Gansu Province Hospital"@en, "甘肃省医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C292> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C560> a <http://www.w3.org/2002/567/owl#Class>;
+  rdfs:label "Baishan City Hospital"@en, "白山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C348> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C561> a <http://www.w3.org/2002/568/owl#Class>;
+  rdfs:label "Huangpu District Hospital"@en, "黄浦区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C562> a <http://www.w3.org/2002/569/owl#Class>;
+  rdfs:label "Luliang City Hospital"@en, "吕梁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C563> a <http://www.w3.org/2002/570/owl#Class>;
+  rdfs:label "Qingpu District Hospital"@en, "青浦区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C564> a <http://www.w3.org/2002/571/owl#Class>;
+  rdfs:label "Skin System"@en, "皮肤系统"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C250> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C565> a <http://www.w3.org/2002/572/owl#Class>;
+  rdfs:label "Ordos City Hospital"@en, "鄂尔多斯市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C422> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C566> a <http://www.w3.org/2002/573/owl#Class>;
+  rdfs:label "Haikou City Hospital"@en, "海口市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C44> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C567> a <http://www.w3.org/2002/574/owl#Class>;
+  rdfs:label "Wuhu City Hospital"@en, "芜湖市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C568> a <http://www.w3.org/2002/575/owl#Class>;
+  rdfs:label "Clinical Hematology"@en, "临床血液学检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C372> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C569> a <http://www.w3.org/2002/576/owl#Class>;
+  rdfs:label "Zhongshan Hospital"@en, "中山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C570> a <http://www.w3.org/2002/577/owl#Class>;
+  rdfs:label "Fuling District Hospital"@en, "涪陵区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C571> a <http://www.w3.org/2002/578/owl#Class>;
+  rdfs:label "Tianmen hospital"@en, "天门市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C530> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C572> a <http://www.w3.org/2002/579/owl#Class>;
+  rdfs:label "Wanzhou District Hospital"@en, "万州区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C159> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C573> a <http://www.w3.org/2002/580/owl#Class>;
+  rdfs:label "Jiangmen City Hospital"@en, "江门市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C574> a <http://www.w3.org/2002/581/owl#Class>;
+  rdfs:label "Celled organisms"@en, "细胞生物"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C304> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C575> a <http://www.w3.org/2002/582/owl#Class>;
+  rdfs:label "Dongguan City Hospital"@en, "东莞市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C147> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C576> a <http://www.w3.org/2002/583/owl#Class>;
+  rdfs:label "Amniotic fluid examination"@en, "羊水检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C375> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C577> a <http://www.w3.org/2002/584/owl#Class>;
+  rdfs:label "Endoscopy"@en, "内窥镜检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C578> a <http://www.w3.org/2002/585/owl#Class>;
+  rdfs:label "Putuo District Hospital"@en, "普陀区医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C547> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C579> a <http://www.w3.org/2002/586/owl#Class>;
+  rdfs:label "Huaibei City Hospital"@en, "淮北市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C580> a <http://www.w3.org/2002/587/owl#Class>;
+  rdfs:label "Yuxi City Hospital"@en, "玉溪市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C581> a <http://www.w3.org/2002/588/owl#Class>;
+  rdfs:label "Baoshan City Hospital"@en, "保山市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C582> a <http://www.w3.org/2002/589/owl#Class>;
+  rdfs:label "Other physical examination"@en, "其他物理检查"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C260> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C583> a <http://www.w3.org/2002/590/owl#Class>;
+  rdfs:label "Health Products"@en, "保健制品"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C584> a <http://www.w3.org/2002/591/owl#Class>;
+  rdfs:label "Hefei hospital"@en, "合肥市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C408> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C585> a <http://www.w3.org/2002/592/owl#Class>;
+  rdfs:label "Xinzhou City Hospital"@en, "忻州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C90> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C586> a <http://www.w3.org/2002/593/owl#Class>;
+  rdfs:label "Hezhou hospital"@en, "贺州市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C587> a <http://www.w3.org/2002/594/owl#Class>;
+  rdfs:label "Aksu City Hospital"@en, "阿克苏市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C373> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C588> a <http://www.w3.org/2002/595/owl#Class>;
+  rdfs:label "Bazhong hospital"@en, "巴中市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C589> a <http://www.w3.org/2002/596/owl#Class>;
+  rdfs:label "Chengde City Hospital"@en, "承德市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C77> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C590> a <http://www.w3.org/2002/597/owl#Class>;
+  rdfs:label "Lijiang City Hospital"@en, "丽江市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C389> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C591> a <http://www.w3.org/2002/598/owl#Class>;
+  rdfs:label "Suining City Hospital"@en, "遂宁市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C146> .
+
+<http://www.openkg.cn/2019-nCoV/health/class/C592> a <http://www.w3.org/2002/599/owl#Class>;
+  rdfs:label "Chongzuo City Hospital"@en, "崇左市医院"@zh-cn;
+  rdfs:subClassOf <http://www.openkg.cn/2019-nCoV/health/class/C140> .
+<http://www.openkg.cn/2019-nCoV/health/property/P1> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C311>;
+  rdfs:label "genetic material"@en, "遗传物质"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C241> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P2> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>,
+    <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "It involves symptoms"@en, "涉及症状"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C269> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P3> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C311>;
+  rdfs:label "Suspected host"@en, "疑似宿主"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C304> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P4> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C269>, <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "A disease"@en, "涉及疾病"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C138> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P5> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "It involves checking"@en, "涉及检查"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C430> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P6> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Pathogens"@en, "病原体"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C311> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P7> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Recommended treatment period of severe clinical medicine"@en, "临床治疗期重症期推荐中成药"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P8> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C269>, <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Associated symptoms"@en, "关联症状"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C269> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P9> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "Suppressing drugs"@en, "抑制药物"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P10> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "Departments"@en, "科室"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C175> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P11> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Mid recommended clinical medicine"@en, "临床治疗期中期推荐中成药"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P12> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Substitute"@en, "替代"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C531> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P13> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Identification of agent"@en, "鉴定试剂"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C9> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P14> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "Medication"@en, "用药"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C503> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P15> a owl:ObjectProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C269>, <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Related diseases"@en, "关联疾病"@zh-cn;
+  rdfs:range <http://www.openkg.cn/2019-nCoV/health/class/C138> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P16> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Severe clinical stage performance"@en, "临床治疗期重症期表现"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P17> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "prompt"@en, "提示"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P18> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "ingredient"@en, "成分"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P19> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Specimen Requirements"@en, "标本要求"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P20> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "ICD10 coding"@en, "ICD10编码"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P21> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C16>;
+  rdfs:label "definition"@en, "定义"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P22> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Food taboos"@en, "饮食禁忌"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P23> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "complication"@en, "并发症"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P24> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "cause"@en, "起因"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P25> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Pathogenesis"@en, "发病机制"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P26> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Applicable scene"@en, "适用场景"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P27> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "structure"@en, "结构"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P28> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "TCM clinical treatment of severe recommend prescription"@en, "临床治疗期重症期中医推荐处方"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P29> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Existing form"@en, "存在形式"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P30> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "content"@en, "内容"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P31> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "concept"@en, "概念"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P32> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Department visits"@en, "就诊科室"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P33> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical classification of Severe"@en, "临床分型危重型"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P34> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "basic unit"@en, "基本单位"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P35> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Susceptible populations"@en, "易感人群"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P36> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "General treatment"@en, "一般治疗"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P37> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Lifting of isolation and discharge criteria"@en, "解除隔离和出院标准"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P38> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Adverse reactions"@en, "不良反应"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P39> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "Protect"@en, "防护"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P40> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Diseased parts"@en, "发病部位"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P41> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C292>;
+  rdfs:label "address"@en, "地址"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P42> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Complete hydrolysis"@en, "彻底水解"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P43> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Early clinical treatment of TCM prescription recommendation"@en, "临床治疗期初期中医推荐处方"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P44> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Source"@en, "出处"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P45> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Structure"@en, "构成"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P46> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Transport principle"@en, "转运原则"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P47> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Whether fasting"@en, "是否空腹"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P48> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Film degree exam"@en, "影像学检查"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P49> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical treatment of Chinese medicine recommended prescription recovery"@en,
+    "临床治疗期恢复期中医推荐处方"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P50> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>;
+  rdfs:label "diagnosis"@en, "诊断"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P51> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "The incubation period"@en, "潜伏期"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P52> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Confirmed cases"@en, "确诊病例"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P53> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical classification"@en, "临床分型"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P54> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Precautions"@en, "注意事项"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P55> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "prevention"@en, "预防"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P56> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Prognosis"@en, "预后"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P57> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Follow-up"@en, "随访"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P58> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Recommendation and prescription drugs"@en, "推荐药物及处方"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P59> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "shape"@en, "形状"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P60> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "distributed"@en, "分布"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P61> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Preliminary hydrolysis"@en, "初步水解"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P62> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "an examination"@en, "检查"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P63> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Medication"@en, "用药"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P64> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Performance limitations"@en, "性能局限性"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P65> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Special examination"@en, "特殊检查"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P66> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C304>;
+  rdfs:label "diameter"@en, "直径"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P67> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical classification Common type"@en, "临床分型普通型"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P68> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical manifestations of recovery"@en, "临床治疗期恢复期表现"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P69> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical classification of heavy"@en, "临床分型重型"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P70> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Epidemiological Features"@en, "流行病学特点"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P71> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>, <http://www.openkg.cn/2019-nCoV/health/class/C269>,
+    <http://www.openkg.cn/2019-nCoV/health/class/C430>, <http://www.openkg.cn/2019-nCoV/health/class/C503>;
+  rdfs:label "Introduction Overview"@en, "简介概述"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P72> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Standard"@en, "采用标准"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P73> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Clinical manifestations"@en, "临床表现"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P74> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "The initial presentation of clinical treatment period"@en, "临床治疗期初期表现"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P75> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Chinese treatment"@en, "中医治疗"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P76> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Mid recommended clinical treatment of TCM prescription"@en, "临床治疗期中期中医推荐处方"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P77> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Precautions"@en, "使用注意事项"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P78> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "medical treatement"@en, "药物治疗"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P79> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "treatment method"@en, "治疗方法"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P80> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C292>;
+  rdfs:label "position"@en, "位置"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P81> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Genetic Features"@en, "遗传特点"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P82> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "effect"@en, "作用"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P83> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Laboratory tests"@en, "实验室检查"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P84> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "High-risk population"@en, "高发人群"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P85> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Features"@en, "功能"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P86> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "symptom"@en, "症状"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P87> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Differential Diagnosis"@en, "鉴别诊断"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P88> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Indications"@en, "适应症"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P89> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "The detailed process"@en, "详细过程"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P90> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Treatment based on"@en, "就诊依据"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P91> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C292>;
+  rdfs:label "level"@en, "级别"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P92> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C292>;
+  rdfs:label "Location"@en, "地理位置"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P93> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Feature"@en, "特点"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P94> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Replacement condition"@en, "更换条件"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P95> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C531>;
+  rdfs:label "Protection standards"@en, "防护标准"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P96> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "way for spreading"@en, "传播途径"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P97> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Elemental composition"@en, "元素组成"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P98> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C241>;
+  rdfs:label "Morphology"@en, "形态结构"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P99> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Medium-term clinical performance"@en, "临床治疗期中期表现"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P100> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C138>;
+  rdfs:label "Doctor examination"@en, "医生查体"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P101> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Clinical Significance"@en, "临床意义"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P102> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C503>;
+  rdfs:label "Use labels"@en, "用途标签"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P103> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C430>;
+  rdfs:label "Reference"@en, "参考值"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.openkg.cn/2019-nCoV/health/property/P104> a owl:DatatypeProperty;
+  rdfs:domain <http://www.openkg.cn/2019-nCoV/health/class/C292>;
+  rdfs:label "category"@en, "类别"@zh-cn;
+  rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
